@@ -1,0 +1,118 @@
+body
+{
+    background  : url("./bg_darker.gif");
+    font-family : Tahoma, Helvetica, Arial, sans-serif;
+    color       : #edc;
+}
+
+a,.link {
+    color           : #6bf;
+    text-decoration : none;
+}
+
+h3, h1 {
+    margin      : 30px 0px 10px 0px;
+    font-weight : bold;
+    color       : #a86;
+    text-shadow : 0px 1px 1px rgba(0,0,0,0.3);
+    font-family : Optima,"Trebuchet MS",sans-serif;
+}
+
+h3 {
+    font-size : 22px;
+}
+
+h1 {
+    text-align  : center;
+    font-size   : 48px;
+    text-shadow : 0px 5px 1px rgba(255,0,0,0.2);
+    font-family : 'Redressed', cursive;
+}
+
+
+#headingbox {
+    background-image    : url("./spotlight2.jpg");
+    background-position : center top, left top;
+    background-repeat   : no-repeat, repeat;
+	margin              : 0px 0px 20px 0px;
+	border-radius       : 10px;
+  	height              : 160px;
+}
+
+#heading {
+    height           : 100%;
+    width            : 97.8%;
+    float            : left;
+    margin           : 0px;
+    background-color : rgba(0,0,0,0.3);
+    margin           : 0 12px;
+}
+
+.rounded {
+	padding               : 5px 5px;
+	margin                : 0px 0;
+	border-radius         : 10px;
+}
+
+.shadow {
+	box-shadow    : 5px 5px 7px #333;
+}
+
+#menu {
+    float                 : left;
+    width                 : 20%;
+    padding               : 5px 5px;
+    margin                : 0px 0;
+}
+
+#menu ul {
+    list-style : none outside none;
+    padding    : 0 10px 0 10px;
+}
+
+
+#menu ul li a {
+	padding               : 5px 15px;
+    margin                : 7px 0 0 0;
+  	color                 : #EEDDCC;
+  	text-decoration       : none;
+	display               : block;
+	border-radius         : 5px;
+    background-color      : rgba(0,0,0,0.3);
+}
+
+#menu ul li a:hover {
+  	color	   : #ffaa00;
+    box-shadow : 0px 0px 20px #FFAA00;
+}
+
+#menu ul li a.externalLink:hover {
+  	color	   : #6bf;
+    box-shadow : 0px 0px 20px #6bf;
+}
+
+#content {
+	float : right;
+	width : 78%;
+}
+
+#footer {
+	float : right;
+	width : 78%;
+}
+
+#container 
+{
+	overflow              : auto;
+    background-color      : rgba(0,0,0,0.3);
+	padding               : 1em 1em 1em 1em;/* top right bottom left */
+	text-align            : left;
+	border-radius         : 10px;
+	min-width             : 800px;
+	max-width             : 1024px;
+	margin-left           : auto;
+	margin-right          : auto;
+	margin-top            : 20px;
+}
+
+
