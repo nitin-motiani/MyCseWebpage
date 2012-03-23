@@ -1,4 +1,3 @@
-<div id="container"> 
    <div id="headingbox"> 
     <div id="heading"> 
      <h1 id="heading_text"> 
@@ -44,12 +43,12 @@
        LinkedIn profile
       </a> 
      </li> 
-     <!--
      <li> 
+     <a href = "https://github.com/nitin-motiani"
+        target = "new" class = "externalLink">
        GitHub profile
       </a> 
      </li> 
-     -->
      <li>
         <a href = "http://twitter.com/nitin_tj" target = "new" class = "externalLink"> 
         Twitter profile

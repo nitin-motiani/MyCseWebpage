@@ -13,6 +13,7 @@
  </head> 
  <body> 
 
+<div id="container"> 
    <?php include("./menu.php");?>
    
    <div id="content"> 
